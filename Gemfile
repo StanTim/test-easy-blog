@@ -10,12 +10,12 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
-gem 'better_errors', '~> 2.4'
 gem 'bulma-rails', '~> 0.0.4.1'
-gem 'simple_form', '~> 4.1'
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'better_errors', '~> 2.4'
 end
 
 group :development do
