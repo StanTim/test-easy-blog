@@ -1,0 +1,17 @@
+ines (14 sloc)  406 Bytes
+
+<div class="box">
+  <article class="media">
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong><%= comment.name %>:</strong>
+          <%= comment.text %>
+        </p>
+      </div>
+    </div>
+    <%= link_to 'Delete', [comment.post, comment],
+                method: :delete, class: "button is-danger", data: { confirm: 'Are you sure?' } %>
+  </article>
+
+</div>
