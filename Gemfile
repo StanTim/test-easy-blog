@@ -9,6 +9,7 @@ gem 'puma', '~> 3.7'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.11.5'
+gem 'sass-rails', '~> 6.0'
 
 gem 'bulma-rails', '~> 0.0.4.1'
 gem 'simple_form'
