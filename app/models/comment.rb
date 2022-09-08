@@ -3,7 +3,7 @@ class Comment < ApplicationRecord
 
   validates :name, presence: true,
             length: { maximum: 50 },
-            format: { with: /\A[a-zA-Z]+\z/ }
+            format: { with: /\A[^0-9`!@#\$%\^&*+_=]+\z/ }
 
   validates :text, presence: true
 end
