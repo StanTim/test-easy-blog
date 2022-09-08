@@ -4,7 +4,7 @@
   <title>DemoBlogST</title>
   <%= csrf_meta_tags %>
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
@@ -15,7 +15,6 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <%= link_to 'My Blog', root_path, class: "navbar-item" %>
           <a class="navbar-item"></a>
           <span class="navbar-burger" data-target="navbarMenuHeroB">
             <span></span>
@@ -23,26 +22,27 @@
             <span></span>
           </span>
         </div>
-        <div id="navbarMenuHeroB" class="navbar-menu">
-          <div class="navbar-end">
-            <%= link_to "Create New Post", new_post_path, class:"navbar-item" %>
-            <a class="navbar-item is-active">
-              Posts
-            </a>
-            <a class="navbar-item">
-              Comments
-            </a>
-            <a class="navbar-item">
-              Members
-            </a>
-          </div>
-        </div>
+<!--        <div id="navbarMenuHeroB" class="navbar-menu">-->
+<!--          <div class="navbar-end">-->
+            <%#= link_to "Create New Post", new_post_path, class: "navbar-item is-light" %>
+<!--            <a class="navbar-item is-active">-->
+<!--              Posts-->
+<!--            </a>-->
+<!--            <a class="navbar-item">-->
+<!--              Comments-->
+<!--            </a>-->
+<!--            <a class="navbar-item">-->
+<!--              Members-->
+<!--            </a>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </nav>
   </div>
-
   <div class="hero-foot">
     <nav class="tabs is-boxed is-fullwidth">
+      <%= link_to 'My Blog', root_path, class: "navbar-item" %>
+      <%= link_to "Create New Post", new_post_path, class: "navbar-item is-light" %>
       <div class="container">
         <ul>
           <li class="is-active">
