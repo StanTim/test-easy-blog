@@ -1,24 +1,48 @@
-# README
+## Easy blog
+Just easy blog / for interview.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
+one author who can create posts.
 
-Things you may want to cover:
+### Before use
 
-* Ruby version
+create new directory and clone project `git@github.com:StanTim/test-easy-blog.git`
 
-* System dependencies
+### System requirements
 
-* Configuration
+* Ruby 3.1
+* Rails 6.1
+* postgresql 14.5
 
-* Database creation
+### Install
+* `bundle install`
+* `Rails db:create`
+* `Rails db:migrate`
 
-* Database initialization
+### To start project run:
+* `Rails server`
+* open url: *http://127.0.0.1:3000*
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Help
+to add data to app run:
+* Rails db:seeds
 
-* Deployment instructions
+### Authors
 
-* ...
+Stanislav A. Timanov
+[1694569@mail.ru](1694569@mail.ru)
+
+
+### Version History
+
+* See [commit change](https://github.com/StanTim/test-easy-blog/commits/main)
+  or See [release history](https://github.com/StanTim/test-easy-blog/releases)
+
+### License
+
+(c) 2021 Stanislav A. Timanov
+
+### Inspiration
+
+[Web-Crunch youtube channel](https://www.youtube.com/watch?v=XEkJ3vZb6-Q)
